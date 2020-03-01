@@ -1,0 +1,35 @@
+{
+  "name": "appengine-witner-listener",
+  "description": "Twitter streaming functionality for WITNER.",
+  "version": "0.5.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Feyzi Çelik Yılankıran.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bruberbeck/witner-listener"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js",
+    "system-test": "repo-tools test app",
+    "test": "npm run system-test",
+    "e2e-test": "repo-tools test deploy"
+  },
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "fire-buffer": "^0.5.1",
+    "firebase": "^5.11.1",
+    "firebase-admin": "^6.3.0",
+    "geofire": "^5.0.1",
+    "polyline-encoded": "0.0.8",
+    "spherical-geometry-js": "^1.4.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "^2.3.0"
+  }
+}
