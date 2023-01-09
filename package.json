@@ -23,7 +23,7 @@
     "@google/maps": "^0.5.5",
     "fire-buffer": "^0.5.1",
     "firebase": "^5.11.1",
-    "firebase-admin": "^6.3.0",
+    "firebase-admin": "^11.4.1",
     "geofire": "^5.0.1",
     "polyline-encoded": "0.0.8",
     "spherical-geometry-js": "^1.4.0",
